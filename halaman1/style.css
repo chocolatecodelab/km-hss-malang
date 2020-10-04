@@ -1,0 +1,138 @@
+
+nav-link:hover {
+    transition: 1s !important;
+}
+
+
+
+.jumbotron {
+    background-image: url(bg.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.jumbotron .display-4 {
+    font-size: 50px;
+    margin-top: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron .display-5 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white !important;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.container .row .col-12 hr {
+    width: 100%;
+    border-top: 3px solid rgba(0, 0, 0, 0.6);
+}
+
+p.text-center span {
+    font-size: 20px;
+}
+
+.loginSebagai {
+    visibility: hidden;
+}
+
+.bukaVisible {
+    visibility: visible !important;
+}
+
+.container.login hr {
+    visibility: hidden;
+    width: 100%;
+    border-top: 3px solid rgba(0, 0, 0, 0.6);
+}
+
+.container .row .login {
+    margin: 20px !important;
+}
+
+.login1:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.row .login .card-header {
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-header:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.card-body {
+    visibility: hidden;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.col-md-5.login {
+    padding: 0;
+}
+
+.bukaForm {
+    display: inherit;
+    transition: .5;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.row .alamat hr {
+    border-top: 3px solid rgba(0, 0, 0, 0.6);
+}
+
+.row .alamat .card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.row .alamat .card .card-header:hover {
+    opacity: 1;
+    cursor: inherit;
+}
+
+.pesan {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 576px) {
+    .jumbotron {
+        background-image: url(bg.JPG); 
+        background-position-x: center;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        background-image: url(bg.JPG); 
+        background-position-x: center;
+    }
+    
+}
+

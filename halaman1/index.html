@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login</title>
+  </head>
+  <body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info ">
+    <div class="container">
+  <a class="navbar-brand" href="#"><img src="KMHSS.png" alt="" width="60px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active text-center bg-info" href="#">About</a>
+      <a class="nav-item nav-link active text-center bg-info" href="#">Contact</a>
+      <a class="nav-item btn btn-primary tombol" href="#">Login</a>
+    </div>
+  </div>
+  </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+      <h1 class="display-4">Welcome To KM-HSS Malang</h1>
+      <p class="display-5">Kerukunan Mahasiswa-Hulu Sungai Selatan wilayah Malang</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- About -->
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center about">About</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <p class="text-left"><span font-weight-bold>KM-HSS MALANG</span> adalah Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti incidunt accusamus velit cumque omnis quidem dolores temporibus, numquam minima itaque, tempore assumenda provident sequi exercitationem odit in laboriosam vitae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat dolorum quisquam corporis, esse ad, facere, illo unde voluptatum molestiae necessitatibus quae aspernatur consectetur distinctio vero quam eaque inventore. Saepe, perferendis.</p>
+    </div>
+    <div class="col-6">
+      <p class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit unde omnis, qui ducimus magnam nobis optio quae inventore, quia, sapiente nihil rerum nisi? Magnam, alias id accusantium veniam libero ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero possimus rem voluptate corporis fugiat, repellat nemo dolorem sed officia sunt, quaerat dignissimos eveniet deleniti non molestias qui nam vero doloribus?</p>
+    </div>
+  </div>
+</div>
+
+<!-- About end -->
+
+
+<!-- Login -->
+<div class="container login text-center justify-content-center">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-6 justify-content-center">
+      <div class="login1 bg-primary text-white h-75  rounded">
+        <h2 class="text-center pt-2">Login</h2>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 loginSebagai">
+      <h3 class="mt-3">Login Sebagai</h3>
+    </div>
+  </div>
+ 
+  <div class="row text-center justify-content-center">
+    <div class="col-md-5 login">
+      <div class="card-header bg-secondary text-white" id="card-body">
+      <h2> Pengunjung</h2>
+      </div>
+      <div class="card-body bg-light rounded">
+      <form action="index.php" id="form">
+          <div class="form-group text-left">
+            <label for="name">Name :</label><br>
+            <input type="text" id="name" size="25" placeholder="Masukkan Nama" class="form-control" required>
+          </div>
+          <div class="form-group text-left">
+            <label for="password">Password :</label><br>
+            <input type="password" id="password" size="25" placeholder="Masukkan Password"  class="form-control" pattern="[A-Za-z]{6,12}" title="Harus disertai huruf capital, huruf kecil dan number" required>
+          </div>
+          <div class="form-check text-left">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+          <div class="submit text-right">
+          <button type="submit" class="btn btn-primary ">Login</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-5 login">
+      <div class="card-header bg-secondary text-white">
+      <h2> Admin</h2>
+      </div>
+      <div class="card-body bg-light rounded">
+        <div class="form-group text-left">
+          <label for="name">Name :</label><br>
+          <input type="text" id="name" size="25" placeholder="Masukkan Nama" class="form-control" required>
+        </div>
+        <div class="form-group text-left">
+          <label for="password">Password :</label><br>
+          <input type="password" id="password" size="25" placeholder="Masukkan Password"  class="form-control" required>
+        </div>
+        <div class="form-check text-left">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <div class="submit text-right">
+        <button type="submit" class="btn btn-primary ">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- akhir login -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center">Contact</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-6 alamat">
+      <div class="card">
+        <div class="card-header bg-dark text-white">
+        <h5 class="text-center pt-2">Alamat</h5></div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Jalan : <br> Bend. Sigura - Gura No. 10 </li>
+          <li class="list-group-item">Desa: <br> Sumbersari</li>
+          <li class="list-group-item">Kec: <br>
+          Lowokwaru, Kota Malang, Jawa Timur</li>
+          <li class="list-group-item">Kode Pos: <br> 65145</li>
+          <li class="list-group-item">Go To Map: <br>
+            <div class="button text-right"><button class="btn btn-primary">Klik Di Sini</button></div>  
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-6 pesan">
+      <h5 class="text-center pt-3">Please Fill out this Form</h5><hr>
+      <div class="form-group">
+        <label for="">Nama: </label><br>
+        <input type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Email: </label><br>
+        <input type="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Instansi / Universitas : </label><br>
+        <input type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Pesan : </label><br>
+        <textarea name="" id="" class="form-control" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <div class="button text-center"><button class="btn btn-primary">Kirim Pesan</button></div> 
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+<!-- Contact -->
+<!-- akhir Contact -->
+
+<!-- Copyright -->
+<footer class="bg-info text-center">
+    <h5 class="copyright text-white" >Copyright by Humas KM-HSS</h5>
+</footer>
+<!-- Humas Copyright
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

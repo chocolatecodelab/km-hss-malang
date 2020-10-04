@@ -1,0 +1,63 @@
+.nav-wrapper a h5 {
+    margin-left: 20px;
+}
+
+a .brand-logo {
+    padding-bottom: 20px;
+}
+
+ul.sidenav li a {
+    font-size: 20px;
+}
+
+.nav-wrapper .imgnav {
+    width: 200px;
+    display: flex;
+}
+
+
+@media (max-width:768px) {
+    .nav-wrapper a img  {
+        display: block;
+        padding-bottom: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .nav-wrapper a h5 {
+        margin-left: 0;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+    .nav-wrapper a {
+        font-size: 20px;
+    }
+
+    .nav-wrapper a h5 {
+        margin-left: 0;
+    }
+
+    .nav-wrapper a img  {
+        display: block;
+        margin-top: 2px !important;
+        padding-bottom: 20px !important;
+        margin-right: 20px !important;
+        width: 40px;
+    }
+
+    .nav-wrapper  {
+        margin-right: 20px !important;
+
+    }
+
+    .sidenav#mobile-nav {
+        width: 300px !important;
+    }
+
+     ul.sidenav li a {
+        font-size: 16px;
+    }
+}
